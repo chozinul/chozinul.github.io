@@ -7,6 +7,7 @@
 		<dict>
 			<key>architectures</key>
 			<array>
+				<string>armv7</string>
 				<string>arm64</string>
 			</array>
 			<key>certificate</key>
@@ -21,14 +22,14 @@
 			<key>entitlements</key>
 			<dict>
 				<key>application-identifier</key>
-				<string>FARWN7FEXX.com.mastercard.ios.MasterpassQR-Demo</string>
+				<string>FARWN7FEXX.com.mastercard.ios.MPQRNone</string>
 				<key>com.apple.developer.team-identifier</key>
 				<string>FARWN7FEXX</string>
 				<key>get-task-allow</key>
 				<true/>
 				<key>keychain-access-groups</key>
 				<array>
-					<string>FARWN7FEXX.com.mastercard.ios.MasterpassQR-Demo</string>
+					<string>FARWN7FEXX.com.mastercard.ios.MPQRNone</string>
 				</array>
 			</dict>
 			<key>name</key>
@@ -36,9 +37,9 @@
 			<key>profile</key>
 			<dict>
 				<key>UUID</key>
-				<string>f696a58b-44b8-4cf7-bdd3-5bd63ab4a721</string>
+				<string>0a3b1682-6ab7-4dc2-8d86-dde906ff606d</string>
 				<key>name</key>
-				<string>iOS Team Provisioning Profile: com.mastercard.ios.MasterpassQR-Demo</string>
+				<string>iOS Team Provisioning Profile: com.mastercard.ios.MPQRNone</string>
 			</dict>
 			<key>team</key>
 			<dict>

@@ -29,7 +29,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.mastercard.ios.MasterpassQR-Demo</string>
+				<string>com.mastercard.ios.MPQRNone</string>
 				<key>bundle-version</key>
 				<string>1.0</string>
 				<key>kind</key>
