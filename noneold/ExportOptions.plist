@@ -7,7 +7,7 @@
 	<key>manifest</key>
 	<dict>
 		<key>appURL</key>
-		<string>https://github.com/chozinul/chozinul.github.io/raw/master/none/MPRQNone.ipa</string>
+		<string>https://raw.githubusercontent.com/chozinul/chozinul.github.io/master/none/MPQRNone.ipa</string>
 		<key>displayImageURL</key>
 		<string>https://raw.githubusercontent.com/chozinul/chozinul.github.io/master/none/image57.png</string>
 		<key>fullSizeImageURL</key>
