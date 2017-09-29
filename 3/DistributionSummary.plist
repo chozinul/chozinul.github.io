@@ -25,6 +25,7 @@
 					<key>architectures</key>
 					<array>
 						<string>x86_64</string>
+						<string>i386</string>
 						<string>armv7</string>
 						<string>arm64</string>
 					</array>
@@ -37,6 +38,82 @@
 						<key>type</key>
 						<string>iOS Distribution</string>
 					</dict>
+					<key>embeddedBinaries</key>
+					<array>
+						<dict>
+							<key>architectures</key>
+							<array>
+								<string>armv7</string>
+								<string>arm64</string>
+							</array>
+							<key>certificate</key>
+							<dict>
+								<key>SHA1</key>
+								<string>CB9884B82F3F83493389714E86E4CF3B13C269C9</string>
+								<key>dateExpires</key>
+								<string>8/10/18</string>
+								<key>type</key>
+								<string>iOS Distribution</string>
+							</dict>
+							<key>name</key>
+							<string>armMasterpassQRCoreSDKV2</string>
+							<key>team</key>
+							<dict>
+								<key>id</key>
+								<string>FARWN7FEXX</string>
+								<key>name</key>
+								<string>MasterCard Worldwide</string>
+							</dict>
+						</dict>
+						<dict>
+							<key>architectures</key>
+							<array>
+								<string>i386</string>
+							</array>
+							<key>certificate</key>
+							<dict>
+								<key>SHA1</key>
+								<string>CB9884B82F3F83493389714E86E4CF3B13C269C9</string>
+								<key>dateExpires</key>
+								<string>8/10/18</string>
+								<key>type</key>
+								<string>iOS Distribution</string>
+							</dict>
+							<key>name</key>
+							<string>i86MasterpassQRCoreSDKV2</string>
+							<key>team</key>
+							<dict>
+								<key>id</key>
+								<string>FARWN7FEXX</string>
+								<key>name</key>
+								<string>MasterCard Worldwide</string>
+							</dict>
+						</dict>
+						<dict>
+							<key>architectures</key>
+							<array>
+								<string>x86_64</string>
+							</array>
+							<key>certificate</key>
+							<dict>
+								<key>SHA1</key>
+								<string>CB9884B82F3F83493389714E86E4CF3B13C269C9</string>
+								<key>dateExpires</key>
+								<string>8/10/18</string>
+								<key>type</key>
+								<string>iOS Distribution</string>
+							</dict>
+							<key>name</key>
+							<string>x86MasterpassQRCoreSDKV2</string>
+							<key>team</key>
+							<dict>
+								<key>id</key>
+								<string>FARWN7FEXX</string>
+								<key>name</key>
+								<string>MasterCard Worldwide</string>
+							</dict>
+						</dict>
+					</array>
 					<key>name</key>
 					<string>MasterpassQRCoreSDKV2.framework</string>
 					<key>team</key>
