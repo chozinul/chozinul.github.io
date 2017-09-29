@@ -56,7 +56,7 @@
 								<string>iOS Distribution</string>
 							</dict>
 							<key>name</key>
-							<string>arm7MasterpassQRCoreSDKV2</string>
+							<string>armMasterpassQRCoreSDKV2</string>
 							<key>team</key>
 							<dict>
 								<key>id</key>
@@ -80,7 +80,7 @@
 								<string>iOS Distribution</string>
 							</dict>
 							<key>name</key>
-							<string>i86MasterpassQRCoreSDKV2</string>
+							<string>i386MasterpassQRCoreSDKV2</string>
 							<key>team</key>
 							<dict>
 								<key>id</key>
