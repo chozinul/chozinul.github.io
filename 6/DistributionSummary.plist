@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MasterpassQR Demo.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>CB9884B82F3F83493389714E86E4CF3B13C269C9</string>
+				<key>dateExpires</key>
+				<string>8/10/18</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>CB9884B82F3F83493389714E86E4CF3B13C269C9</string>
+						<key>dateExpires</key>
+						<string>8/10/18</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>MasterpassQRCoreSDKV2.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>FARWN7FEXX</string>
+						<key>name</key>
+						<string>MasterCard Worldwide</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>CB9884B82F3F83493389714E86E4CF3B13C269C9</string>
+						<key>dateExpires</key>
+						<string>8/10/18</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>MasterpassQRScanSDK.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>FARWN7FEXX</string>
+						<key>name</key>
+						<string>MasterCard Worldwide</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>FARWN7FEXX.com.mastercard.ios.MasterpassQR-Demo</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>FARWN7FEXX</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>FARWN7FEXX.com.mastercard.ios.MasterpassQR-Demo</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>MasterpassQR Demo.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>486b1cf5-733a-40e4-a150-55eff4db5063</string>
+				<key>name</key>
+				<string>SimplifyEnterpriseWildcard</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>FARWN7FEXX</string>
+				<key>name</key>
+				<string>MasterCard Worldwide</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
