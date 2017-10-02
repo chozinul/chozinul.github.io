@@ -35,7 +35,20 @@ td, th {
   <tr>
     <td>2.0.0 (6)</td>
     <td><a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/chozinul/chozinul.github.io/master/6/manifest.plist">install</a></td>
-    <td>Fixed iOS 10 compatibility issue</td>
+    <td>
+Positive Test Cases –
+<ul>
+  <li>o   3G – QR Generation failed but No Error msg shown </li>
+  <li>o    4C - QR Generation should not be successful </li>
+</ul>
+Negative Test Cases –
+<ul>
+<li>o   4I – QR Generation should not be successful </li>
+<li>o   6C,6F, 6I, 6J – Error message do not make references to root tag. Users will not be able to pinpoint item with just sub-tag 00 </li>
+<li>o   4A – Error message should make reference to Merchant Category Code in wording </li>
+<li>o   6D – Error message should make reference to alternate merchant name</li>
+</ul>
+    </td>
   </tr>
 
   <tr>
