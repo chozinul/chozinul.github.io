@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MPQR Version 2</title>
+
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+</style>
+
+</head>
+<body>
+
+<h1>MPQR Version 2</h1>
+<p>Please click on the link below to download MPQR demo app version 2
+
+<table>
+  <tr>
+    <th>Version</th>
+    <th>Download</th>
+    <th>Remark</th>
+  </tr>
+
+
+        <tr>
+          <td>2.0.0 (100)</td>
+          <td><a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/chozinul/chozinul.github.io/master/100/manifest.plist">install</a></td>
+          <td>trial after commit</td>
+        </tr>
+              <tr>
+                <td>2.0.0 (9)</td>
+                <td><a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/chozinul/chozinul.github.io/master/9/manifest.plist">install</a></td>
+                <td>Added missiong of including rootTag in the error description</td>
+              </tr>
+
+          <tr>
+            <td>2.0.0 (8)</td>
+            <td><a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/chozinul/chozinul.github.io/master/8/manifest.plist">install</a></td>
+            <td>Allow uppercase/lowercase AEM for additional data tag 09</td>
+          </tr>
+
+      <tr>
+        <td>2.0.0 (7)</td>
+        <td><a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/chozinul/chozinul.github.io/master/7/manifest.plist">install</a></td>
+        <td>Allow lowercase CRC validation</td>
+      </tr>
+
+  <tr>
+    <td>2.0.0 (6)</td>
+    <td><a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/chozinul/chozinul.github.io/master/6/manifest.plist">install</a></td>
+    <td>
+Positive Test Cases –
+<ul>
+  <li>o   3G – QR Generation failed but No Error msg shown </li>
+  <li>o    4C - QR Generation should not be successful </li>
+</ul>
+Negative Test Cases –
+<ul>
+<li>o   4I – QR Generation should not be successful </li>
+<li>o   6C,6F, 6I, 6J – Error message do not make references to root tag. Users will not be able to pinpoint item with just sub-tag 00 </li>
+<li>o   4A – Error message should make reference to Merchant Category Code in wording </li>
+<li>o   6D – Error message should make reference to alternate merchant name</li>
+</ul>
+    </td>
+  </tr>
+
+  <tr>
+    <td>2.0.0 (5)</td>
+    <td><a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/chozinul/chozinul.github.io/master/5/manifest.plist">install</a></td>
+    <td>Fixed iOS 10 compatibility issue</td>
+  </tr>
+
+  <tr>
+    <td>2.0.0 (4)</td>
+    <td><a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/chozinul/chozinul.github.io/master/4/manifest.plist">install</a></td>
+    <td>Format the generated data, so that it is easy to be read</td>
+  </tr>
+
+  <tr>
+  <td>2.0.0 (3)</td>
+  <td><a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/chozinul/chozinul.github.io/master/3/manifest.plist">install</a></td>
+  <td>
+    <ul>
+      <li>Added QRCode image and generated string</li>
+      <li>Bug fix: 3A 4B 6B 6E 6G 6H</li>
+      <li>Android like interface</li>
+      <li>Error message similar to Android app</li>
+      <li>Added MasterCard logo</li>
+    </ul>
+  </td>
+  </tr>
+  <tr>
+    <td>2.0.0 (2)</td>
+    <td><a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/chozinul/chozinul.github.io/master/2/manifest.plist">install</a></td>
+    <td>Signed with distribution cert so that everyone can download</td>
+  </tr>
+  <tr>
+    <td>2.0.0 (1)</td>
+    <td><a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/chozinul/chozinul.github.io/master/1/manifest.plist">install</a></td>
+    <td>First beta version</td>
+  </tr>
+
+<!--
+  <tr>
+    <td>1.0.0 (1)</td>
+    <td><a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/chozinul/chozinul.github.io/master/none/manifest.plist">install</a></td>
+    <td>No SDK</td>
+  </tr>
+  <tr>
+    <td>1.0.0 (1)</td>
+    <td><a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/chozinul/chozinul.github.io/master/core/manifest.plist">install</a></td>
+    <td>Core SDK</td>
+  </tr>
+  <tr>
+    <td>1.0.0 (1)</td>
+    <td><a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/chozinul/chozinul.github.io/master/scan/manifest.plist">install</a></td>
+    <td>Scan SDK</td>
+  </tr>
+-->
+</table>
+</p>
+</body>
+</html>
